@@ -1,0 +1,30 @@
+{
+  "name": "vertical-ai-platform-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "shadcn/ui": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "eslint": "latest",
+    "jest": "latest"
+  },
+  "eslintConfig": {
+    "extends": "next/core-web-vitals"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
